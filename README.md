@@ -1,6 +1,9 @@
 ##  Please view description of the [original repo](https://github.com/andryblack/fontbuilder) for software details.
 
+**This branch is intended to implement [this closed pull request](https://github.com/andryblack/fontbuilder/pull/14/files)**
+
 **What the fork?**
+
 While looking for precompiled Windows binaries of fontbuilder, the best I could find was [this Google Code page](https://code.google.com/archive/p/fontbuilder/downloads) with builds from **over a decade ago**. The download link on the original repository leads to a 404, and there are no Releases available on GitHub.
 
 The entire purpose of this fork is to host more up-to-date Windows binaries in the event that someone, like me, is frantically searching through the forks looking for a download just to see if the program even works (it does).
@@ -8,11 +11,13 @@ The entire purpose of this fork is to host more up-to-date Windows binaries in t
 [Download is available on the Releases page.](https://github.com/Toxijuice/fontbuilder/releases)
 
 **How up to date is this version?**
+
 While technically this was built from a clone of [this commit](https://github.com/andryblack/fontbuilder/commit/6a5927a228661c4503780e9712ba7427abf9af48), the only thing added at that time was a donation link. As far as I can tell, at the time of writing this, the most recent change that affects how the software works is from **2018**, with a [commit fixing kerning exports](https://github.com/andryblack/fontbuilder/commit/d42224deef8f91e8885952751271a19fa952dfcf) (which notably doesn't seem to work for me, but YMMV.)
 
 As far as version numbering goes, the version number is still set to 0.6a, same as the build from 2011, despite the fact that there [have been many changes since](https://github.com/andryblack/fontbuilder/commits/master).
 
 **How do I build this myself?**
+
 Listen, I *really* don't know what I'm doing. I don't have a strong grasp on C++. I might be able to change a variable or two without breaking anything, but if I were to try to write anything significant, I'm pretty sure something would explode. So while the main repository gives the very detailed instructions of: `qmake && make`, that means **absolutely nothing** to me.
 
 So in the event that you, dear reader, come across this fork in the distant future and download links have once again been broken, I will give some guidance on how I stumbled my way through building.
